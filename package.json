@@ -1,0 +1,19 @@
+{
+  "name": "optimizacion",
+  "version": "1.0.0",
+  "description": "Proyecto básico con bundling, minificación y compresión",
+  "scripts": {
+    "build": "webpack",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "css-loader": "^6.5.1",
+    "express": "^4.17.1",
+    "mini-css-extract-plugin": "^2.9.1",
+    "style-loader": "^3.3.0",
+    "terser-webpack-plugin": "^5.2.4",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
